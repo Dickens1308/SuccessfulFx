@@ -1,22 +1,26 @@
-const ContactUsComponent = () => {
+import HeadwayLogo from "../assets/img/headway.jpeg";
+
+const HeadwayContactComponent = () => {
     return <div className="uk-section">
         <div className="uk-container">
+            <img src={HeadwayLogo} alt="logo" width="250" height="54"/>
             <div className="uk-grid" data-uk-grid="">
                 <div className="uk-width-3-5@m">
-                    <h1 className="uk-margin-remove-bottom">Contact Us</h1>
+                    <h1 className="uk-margin-remove-bottom">Headway Service</h1>
                     <p className="uk-text-lead uk-text-muted uk-margin-small-top">Do not hesitate to reach out. Just
                         fill in the contact form here and we’ll be sure to reply as fast as possible.</p>
                     <div className="uk-grid-divider uk-child-width-1-2@m uk-child-width-1-2@s uk-margin-medium-top"
                          data-uk-grid="">
                         <div>
-                            <h4>Public relations</h4>
-                            <p>For press, speaking or marketing related inquiries</p>
                             <div className="uk-flex uk-flex-middle uk-margin">
                                 <div className="in-icon-wrap circle small primary-color uk-margin-small-right">
                                     <i className="fas fa-envelope fa-sm"></i>
                                 </div>
                                 <div>
-                                    <p className="uk-margin-remove">info@successfultradersfx.com</p>
+                                    <a style={{textDecoration: 'none', color: '#8F8F8F'}} className="uk-margin-remove"
+                                       href="mailto:Hemedsalehe79@gmail.com">
+                                        <p className="uk-margin-remove">Hemedsalehe79@gmail.com</p>
+                                    </a>
                                 </div>
                             </div>
                             <div className="uk-flex uk-flex-middle uk-margin">
@@ -24,32 +28,22 @@ const ContactUsComponent = () => {
                                     <i className="fas fa-phone fa-sm"></i>
                                 </div>
                                 <div>
-                                    <p className="uk-margin-remove">+255 (717) 558 628 <br /> +255 (627) 585 984</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h4>Business submissions</h4>
-                            <p>For business plan submissions. Please submit using this</p>
-                            <div className="uk-flex uk-flex-middle uk-margin">
-                                <div className="in-icon-wrap circle small primary-color uk-margin-small-right">
-                                    <i className="fas fa-envelope fa-sm"></i>
-                                </div>
-                                <div>
-                                    <p className="uk-margin-remove">support@successfultradersfx.com</p>
+                                    <p className="uk-margin-remove">+255 (717) 558 628</p>
                                 </div>
                             </div>
                             <div className="uk-flex uk-flex-middle uk-margin">
                                 <div className="in-icon-wrap circle small primary-color uk-margin-small-right">
-                                    <i className="fas fa-phone fa-sm"></i>
+                                    <i className="fa-brands fa-telegram fa-xl"></i>
                                 </div>
                                 <div>
-                                    <p className="uk-margin-remove">+255 (717) 558 628 <br /> +255 (627) 585 984</p>
+                                    <a style={{textDecoration: 'none', color: '#8F8F8F'}} className="uk-margin-remove"
+                                       href="https://t.me/Hemedsalehe">
+                                        <p className="uk-margin-remove">@Hemedsalehe</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <h4>Contact information</h4>
                     <div className="uk-flex uk-flex-middle uk-margin">
                         <div className="in-icon-wrap circle small primary-color uk-margin-small-right">
                             <i className="fas fa-map-marker-alt fa-sm"></i>
@@ -99,4 +93,4 @@ const ContactUsComponent = () => {
         </div>
     </div>
 }
-export default ContactUsComponent;
+export default HeadwayContactComponent;

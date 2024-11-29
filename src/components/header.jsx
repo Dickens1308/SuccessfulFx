@@ -15,12 +15,13 @@ const HeaderComponent = () => {
                         </Link>
                         <ul className="uk-navbar-nav uk-visible@m">
                             <li><Link to="/">Home</Link></li>
+                            <li><a href="/headway">Headway</a></li>
                             <li><Link to="/blogs">Blog</Link></li>
                             <li><Link to="/contact-us">Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className="uk-navbar-right">
-                        <div className="uk-navbar-item" hidden>
+                    <div className="uk-navbar-item" hidden>
                             <div className="in-optional-nav">
                                 <Link to="/login" className="uk-button uk-button-small uk-button-default">
                                     Login<i className="fas fa-right-to-bracket"></i>
@@ -47,6 +48,7 @@ const HeaderComponent = () => {
                                                     Home
                                                 </a>
                                             </li>
+                                            <li><a href="/headway">Headway</a></li>
                                             <li><a href="/blogs">Blog</a></li>
                                             <li><a href="/contact-us">Contact Us</a></li>
                                         </ul>

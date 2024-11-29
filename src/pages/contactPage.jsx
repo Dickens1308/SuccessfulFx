@@ -7,7 +7,7 @@ const ContactPage = () => {
     return <>
         <HeaderComponent/>
         <main>
-            <PagePathComponent />
+            <PagePathComponent pageName="Contact" />
             <ContactUsComponent />
         </main>
         <FooterComponent/>
