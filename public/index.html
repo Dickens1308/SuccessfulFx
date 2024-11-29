@@ -1,43 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SuccessfulTradersFx, We are agents where client can deposit and withdraw transaction to/from their wallets, we alse provide trainings and education on forex market">
+  <meta name="keywords" content="forex,fx,successfulfx,successfulforex, forextraders,fxtraders,forex">
+  <meta name="author" content="Hemedy Salehe">
+  <meta name="theme-color" content="#4184DD">
+  <meta name="color-scheme" content="only light">
+  <link rel="preload" href="/assets/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/open-sans-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/work-sans-v5-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/work-sans-v5-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/work-sans-v5-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="preload" href="/assets/js/vendors/uikit.min.js" as="script">
+  <link rel="preload" href="/assets/js/utilities.min.js" as="script">
+  <link rel="preload" href="/assets/js/config-theme.js" as="script">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/vendors/uikit.min.js"></script>
+  <link rel="shortcut icon" href="/assets/img/successfultradersfx-logo.png" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="/assets/img/successfultradersfx-logo.png">
+  <title>SuccessfulTradersFx - Official Website</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme:light
+      }
+    }
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    @media (forced-colors:active) {
+      :root {
+        color-scheme: light
+      }
+    }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    .whatsapp-icon-container {
+      position: fixed;
+      bottom: 20px;
+      left: 40px;
+      background-color: #39f;
+      width: 70px;
+      height: 70px;
+      border-radius: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 22px;
+      box-shadow: 0 2px 5px rgba(0,0,0,.2)
+    }
+  </style>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div class="page-loader">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div id="root"></div>
+<div class="container mt-4 ml-3">
+  <div class="rounded-circle whatsapp-icon-container">
+    <a href="https://api.whatsapp.com/send?phone=255717558628">
+      <i class="fab fa-whatsapp fa-2x text-white" style="color:#fff;margin-top:6px"></i>
+    </a>
+  </div>
+</div>
+<a href="#" class="to-top uk-visible@m" data-uk-scroll>
+  Top<i class="fas fa-chevron-up"></i>
+</a>
+<script src="/assets/js/utilities.min.js"></script>
+<script src="/assets/js/config-theme.js"></script>
+</body>
 </html>
