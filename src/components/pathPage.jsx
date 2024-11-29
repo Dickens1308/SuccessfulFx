@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 
 const PagePathComponent = ({pageName}) => {
     return <div className="uk-section uk-padding-remove-vertical in-monee-breadcrumb">
